@@ -60,7 +60,7 @@ public class HeightCalculatorActivity extends Activity {
                     if(manRadioButton.isChecked()||womanRadioButton.isChecked()){
                         Double weight=Double.parseDouble(weightEditText.getText().toString());
                         StringBuffer sb=new StringBuffer();
-                        sb.append("--------评估结果--------\n");
+                        sb.append("-------评估结果-------\n");
                         if(manRadioButton.isChecked()){
                             sb.append("男性标准身高：");
                             //执行运算
